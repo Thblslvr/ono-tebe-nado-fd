@@ -44,7 +44,7 @@
 .address {
   justify-self: end;
   max-width: 313px;
-  padding: 0 75px 9px 0;
+  padding: 1px 76px 9px 0;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -113,8 +113,8 @@
   z-index: 2;
   display: flex;
   align-items: baseline;
-  gap: 105px;
-  padding: 0 30px 49px 48px;
+  gap: 107px;
+  padding: 0 30px 49px 50px;
 }
 
 .cover__description-text {
@@ -122,7 +122,7 @@
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  word-spacing: 19px;
+  word-spacing: 18.5px;
 }
 
 .bet-button {
@@ -173,13 +173,14 @@
 .card__title {
   position: relative;
   z-index: 2;
-  padding: 50px 19px 0 42px;
+  padding: 50px 19px 0 41px;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
+  text-underline-offset: 3px;
   text-transform: uppercase;
 }
 
@@ -191,7 +192,7 @@
 .card__text {
   position: relative;
   z-index: 2;
-  padding: 0 39px 46px 40px;
+  padding: 0 39px 46px 41px;
   overflow: auto;
   font-weight: 400;
   font-size: 20px;
@@ -212,10 +213,11 @@
 
 .lots__look-more-link {
   display: block;
-  padding: 36px 63px 155px;
+  padding: 34px 63px 155px;
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
+  text-underline-offset: 4px;
 }
 
 .about {
@@ -244,7 +246,7 @@
 
 .about__title {
   margin: 101px 1px 1px;
-  padding: 0 0 98px 12px;
+  padding: 0 0 100px 12px;
   font-size: 40px;
   text-transform: uppercase;
 }
