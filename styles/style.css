@@ -109,6 +109,8 @@
 }
 
 .cover__description {
+  position: relative;
+  z-index: 2;
   display: flex;
   align-items: baseline;
   gap: 105px;
@@ -205,11 +207,6 @@
 
 .card_type_picture {
   background: url(../images/card-lot-03.jpg) no-repeat center/cover;
-}
-
-.cover__description {
-  position: relative;
-  z-index: 2;
 }
 
 .lots__look-more-link {
